@@ -36,6 +36,26 @@ Restart the Redmine application
 
 No further steps needed
 
+## Development
+
+As Redmine currently doesn't support the [Sprockets asset pipeline](http://guides.rubyonrails.org/asset_pipeline.html) we're precompiling the needed assets using a custom build task:
+
+```
+rake assets:build
+```
+
+### CSS (Sass)
+
+The SASS files for generating the static CSS are located in `lib/assets/stylesheets`. You can only build the stylesheets using a dedicated Rake task:
+
+```
+rake assets:build:stylesheets
+```
+
+## TODO
+
+* Cleanup the SASS files
+
 ## Contributing
 
 1. Fork it ( https://github.com/neopoly/redmine-neopoly_style/fork )

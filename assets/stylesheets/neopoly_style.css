@@ -1,14 +1,160 @@
-/* Header */
-#header > h1 {
-  height: 26px;
-}
+body, #wrapper, h1, h2, h3, h4 { font-family: "Lucida Grande", verdana, arial, helvetica, sans-serif; }
 
-/* Sidebar */
-#main > #sidebar ul {
-  margin: 12px 0;
-  padding: 0 0 0 30px;
-}
+h2, h3, h4, .wiki h1, .wiki h2, .wiki h3 { border-bottom: 0; }
 
-#main > #sidebar ul li {
-  list-style-type: disc;
-}
+p.breadcrumb { margin: 4px 0 15px 0; }
+p.subtitle { margin: 0px 0 12px 0; }
+
+a, a:link, a:visited { color: #005782; }
+
+.contextual a, .contextual a:link, .contextual a:visited { color: #888; }
+
+.contextual a:hover, .contextual a:visited:hover { color: #333; }
+
+div.filters h2 .scope_title a { color: #222; text-decoration: none; }
+
+h2, .wiki h1, h3, .wiki h2 { color: #222; }
+
+#sidebar h3 { color: #222; }
+
+body, #wrapper, #main { background-color: #EEE; }
+
+#header { background-color: #005782; background-image: -webkit-gradient(linear, left top, left bottom, from(#1a719c), to(#005782)); background-image: -moz-linear-gradient(center top, #1a719c 0%, #005782 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1a719c', endColorstr='#005782'); padding: 10px 0 35px 10px; background-position-y: 11%; height: auto; min-height: initial; }
+#header > h1 { height: 26px; margin: 0 24px; font-weight: normal; line-height: 14px; }
+
+#main { margin: 15px 15px 0 15px; }
+#main > #sidebar ul { margin: 12px 0; padding: 0 0 0 30px; }
+#main > #sidebar ul li { list-style-type: disc; }
+
+#top-menu { background: #000; padding: 7px 10px 2px 20px; }
+
+#main-menu { left: 15px; }
+#main-menu li a { background-color: transparent; }
+#main-menu li a.selected, #main-menu li a.selected:hover { background-color: #EEE; color: #222; }
+#main-menu li a:hover { background-color: transparent; }
+
+#quick-search { padding-top: 10px; }
+
+div.flash { border: 0; text-shadow: 0 1px white; }
+
+#sidebar a.selected { background-color: transparent; color: #CCC; font-weight: bold; }
+
+#content > div.flash { border: 0px solid; padding: 9px 35px 10px; margin: -6px -10px 6px -10px; background-position-x: 12px !important; background-position-y: 9px !important; }
+
+#errorExplanation, .nodata, .warning { border: 1px solid; }
+
+div.filters h2 .scope_title a { color: #222 !important; }
+
+#content > h2, #content > div.filters h2, #content > #add-news > h2, #content > #add-message > h2, #content > .message.details > h2, #content > .board.details > h2, #content > #add-document > h2 { background: #F1F5FA; padding-top: 15px; padding-bottom: 15px; padding-right: 20px; padding-left: 20px; margin: -7px -10px 10px; border-top: 1px solid #DADEE5; border-bottom: 1px solid #DADEE5; }
+#content > div.contextual { margin-top: 13px; margin-right: 10px; }
+#content > div.wiki { padding: 6px 10px 10px 10px; }
+
+#content, #main.nosidebar #content { background: #FFF; -webkit-box-shadow: 0 0 3px #CCC; -moz-box-shadow: 0 0 3px #CCC; box-shadow: 0 0 3px #CCC; border: 1px solid #D7D7D7; }
+
+#footer { background-color: #EEE; border: 0; margin: 10px; }
+
+#context-menu { -webkit-box-shadow: 0 0 3px #CCC; -moz-box-shadow: 0 0 3px #CCC; box-shadow: 0 0 3px #CCC; }
+#context-menu ul li ul { -webkit-box-shadow: 0 0 3px #CCC; -moz-box-shadow: 0 0 3px #CCC; box-shadow: 0 0 3px #CCC; }
+#context-menu li:hover { border: 1px solid #EEE !important; background-color: #EEE; }
+#context-menu ul { border: 1px solid #DDD !important; }
+
+input[type="text"], input[type="password"] { padding: 2px; border: 1px solid #D7D7D7; }
+
+textarea, select { padding: 2px; border: 1px solid #D7D7D7; }
+
+input[type="text"], input[type="password"] { padding: 3px; }
+input[type="text"]:focus, input[type="password"]:focus { border: 1px solid #888866; }
+input.autocomplete { border-radius: initial; height: initial; }
+
+textarea:focus, select:focus { border: 1px solid #888866; }
+
+option { border-bottom: 1px dotted #D7D7D7; }
+
+body.action-login #content, body.action-login #main.nosidebar #content { background: inherit; border: 0px; box-shadow: none; }
+body.action-login #login-form table { padding: 3em; background: white; -webkit-box-shadow: 0 0 3px #CCC; -moz-box-shadow: 0 0 3px #CCC; box-shadow: 0 0 3px #CCC; border: 1px solid #D7D7D7; }
+
+#login-form input#username, #login-form input#password { outline: none; margin: 0px; border: 1px solid #D7D7D7; padding: 6px; font-size: 140%; }
+
+.controller-account.action-login div.flash { -webkit-box-shadow: 0 0 3px #CCC; -moz-box-shadow: 0 0 3px #CCC; box-shadow: 0 0 3px #CCC; border: 1px solid #D7D7D7 !important; }
+
+table.list tbody td, table.list tbody tr:hover td { border: 1px solid #D7D7D7; }
+table.list thead th { border: 1px solid #D7D7D7; }
+table.list tr.issue a { color: #666; }
+
+tr.odd.priority-7, table.list tbody tr.odd.priority-7:hover { color: #900; font-weight: bold; }
+
+tr.odd.priority-7 { background: #ffc4c4; }
+tr.even.priority-7 { color: #900; font-weight: bold; }
+
+table.list tbody tr.even.priority-7:hover { color: #900; font-weight: bold; }
+
+tr.even.priority-7 { background: #ffd4d4; }
+tr.priority-7 a, tr.priority-7:hover a { color: #900; }
+tr.odd.priority-7 td, tr.even.priority-7 td { border-color: #ffb4b4; }
+tr.odd.priority-5 { color: #900; }
+
+table.list tbody tr.odd.priority-5:hover { color: #900; }
+
+tr.odd.priority-5 { background: #ffc4c4; }
+tr.even.priority-5 { color: #900; }
+
+table.list tbody tr.even.priority-5:hover { color: #900; }
+
+tr.even.priority-5 { background: #ffd4d4; }
+tr.priority-5 a { color: #900; }
+tr.odd.priority-5 td, tr.even.priority-5 td { border-color: #ffb4b4; }
+tr.odd.priority-3 { color: #559; }
+
+table.list tbody tr.odd.priority-3:hover { color: #559; }
+
+tr.odd.priority-3 { background: #eaf7ff; }
+tr.even.priority-3 { color: #559; }
+
+table.list tbody tr.even.priority-3:hover { color: #559; }
+
+tr.even.priority-3 { background: #f2faff; }
+tr.priority-3 a { color: #559; }
+tr.odd.priority-3 td, tr.even.priority-3 td { border-color: #add7f3; }
+
+span.tag-label-color { color: white; text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25); font-size: 9px !important; line-height: 1 !important; margin: 2px 0px 2px 0px; text-decoration: none; display: inline-block; position: relative; text-align: center; border-top: 1px solid rgba(255, 255, 255, 0.25); -moz-border-radius: 0px !important; -webkit-border-radius: 0px !important; border-radius: 0px !important; padding: 4px 6px 4px !important; background: url(../images/dark-overlay.png) repeat-x scroll 0 0; border: 1px solid rgba(0, 0, 0, 0.2); background-color: #96CBFF; }
+span.tag-label-color:hover { background-color: #77ADE2; }
+span.tag-label-color a, span.tag-label-color span { font-weight: bold !important; font-family: "Lucida Grande", verdana, arial, helvetica, sans-serif !important; }
+span.tag-label-color:hover a { color: black; text-shadow: none; }
+
+#add-news, #add-message, #add-document { margin-bottom: 20px; }
+
+#roadmap { margin: 10px; }
+
+div.details { background: #FFD; padding: 20px; margin-bottom: 6px; border: 1px solid #D7D7D7; margin: -11px -11px 15px -11px; }
+
+div.issue.tooltip { padding: 6px; margin: 0 0 6px 0; }
+
+.box { background-color: #fcfcfc; }
+
+.wiki img { max-width: 100%; }
+
+div.journal .details { border: 1px solid white; }
+div.journal .details:hover { background: #FFD; border: 1px solid #D7D7D7; }
+div.journal > div { margin-top: 10px; }
+
+#content .tabs ul li a { border-radius: 0px; -webkit-border-radius: 0px; -moz-border-radius: 0px; }
+
+#history div.journal { border-top: 1px solid #DDD; }
+
+#title h2, #buttons, #title h1 { min-width: 550px !important; }
+
+.ui-widget { font-family: inherit; font-size: inherit; }
+
+.ui-widget-header { font: bold 100% "Lucida Grande", verdana, arial, helvetica, sans-serif; text-shadow: white 0 1px 0; text-align: left; padding: 6px; background: #F1F5FA; border: 1px solid #CCC; border-radius: 0px; color: #000; }
+
+div.modal div.ui-dialog-titlebar { margin: -5px; margin-bottom: 10px; }
+
+.ui-widget-content { background: white; }
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default { background: #FCFCFC; font-weight: bold; color: inherit; }
+
+button.ui-corner-all { border-radius: 0px; }
+
+.ui-dialog .ui-dialog-title { float: left; font-size: 14px; padding: 2px 10px 1px 0px; color: #444; }
+
+.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button { font-family: inherit; font-size: inherit; }

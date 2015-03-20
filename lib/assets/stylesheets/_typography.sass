@@ -1,0 +1,33 @@
+body, #wrapper, h1, h2, h3, h4
+  font-family: $font-main
+
+h2, h3, h4, .wiki h1, .wiki h2, .wiki h3
+  border-bottom: 0
+
+p
+  &.breadcrumb
+    margin: 4px 0 15px 0
+
+  &.subtitle
+    margin: 0px 0 12px 0
+
+a, a:link, a:visited
+  color: $link-color-default
+
+.contextual a, .contextual a:link, .contextual a:visited
+  color: $contextual-link-color-default
+
+.contextual a:hover, .contextual a:visited:hover
+  color: $contextual-link-color-hover
+
+div.filters h2 .scope_title a
+  color: $title-color-default
+  text-decoration: none
+
+h2, .wiki h1,
+h3, .wiki h2
+  color: $title-color-default
+
+
+#sidebar h3
+  color: $title-color-default

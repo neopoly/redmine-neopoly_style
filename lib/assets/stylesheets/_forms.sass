@@ -1,0 +1,24 @@
+input
+  &[type="text"], &[type="password"]
+    padding: 2px
+    border: 1px solid $input-border-color
+
+textarea, select
+  padding: 2px
+  border: 1px solid $input-border-color
+
+input
+  &[type="text"], &[type="password"]
+    padding: 3px
+  &[type="text"]:focus, &[type="password"]:focus
+    border: 1px solid $input-focus-color
+
+  &.autocomplete
+    border-radius: initial
+    height: initial
+
+textarea:focus, select:focus
+  border: 1px solid $input-focus-color
+
+option
+  border-bottom: 1px dotted $input-border-color
