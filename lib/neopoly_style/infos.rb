@@ -1,4 +1,5 @@
 module NeopolyStyle
+  # Shared infos between the gemspec and the plugin
   module Infos
     NAME        = "redmine-neopoly_style"
     DESCRIPTION = "Custom style overrides for Redmine"
