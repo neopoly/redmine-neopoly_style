@@ -1,4 +1,4 @@
-@media (max-width: 899px) { #header { height: 64px; padding-top: 0; }
+@media (max-width: 899px) { #header { height: 64px; padding-top: 0; background-image: none !important; }
   #header .jump-box-arrow:before { top: 0; }
   .flyout-menu { background: #504c84; }
   .flyout-menu a, .flyout-menu a:link, .flyout-menu a:visited { color: #FFF; }
