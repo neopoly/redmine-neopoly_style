@@ -19,7 +19,7 @@ h2, .wiki h1, h3, .wiki h2 { color: #222; }
 
 body, #wrapper, #main { background-color: #EEE; }
 
-#header { background-color: #005782; background-image: -webkit-gradient(linear, left top, left bottom, from(#1a719c), to(#005782)); background-image: -moz-linear-gradient(center top, #1a719c 0%, #005782 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1a719c', endColorstr='#005782'); padding: 10px 0 35px 10px; background-position-y: 11%; height: auto; min-height: initial; }
+#header { background-color: #504c84; background-image: -webkit-gradient(linear, left top, left bottom, from(#504c84), to(#3d455f)); background-image: -moz-linear-gradient(center top, #504c84 0%, #504c84 #3d455f); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$theme-color', endColorstr='#3d455f'); padding: 10px 0 35px 10px; background-position-y: 11%; height: auto; min-height: initial; }
 #header > h1 { height: 26px; margin: 0 24px; font-weight: normal; line-height: 14px; }
 
 #main { margin: 15px 15px 0 15px; }

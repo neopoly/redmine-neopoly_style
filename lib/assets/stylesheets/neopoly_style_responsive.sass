@@ -1,0 +1,42 @@
+@import "config"
+
+@media (max-width: 899px)
+  #header
+    height: 64px
+    padding-top: 0
+
+    .jump-box-arrow:before
+      top: 0
+
+  .flyout-menu
+    background: $theme-color
+
+    a, a:link, a:visited
+      color: $content-color
+
+    h1, h2, h3
+      margin: 0
+      padding: 0
+      color: white
+      border-top: 1px solid $border-color
+      border-bottom: 1px solid $border-color
+      background-color: darken($theme-color, 20%)
+      height: 20px
+      font-size: 11px
+      line-height: 19px
+      letter-spacing: .1em
+      text-transform: uppercase
+
+    .flyout-menu__sidebar
+      display: none
+    .personal-wiki-page
+      display: none
+
+  #content
+    > .wiki > .apps.side
+      display: none
+
+    > div.contextual
+      margin: 0 0 6px 0
+      padding: 0
+      text-align: center

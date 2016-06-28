@@ -14,7 +14,8 @@ module NeopolyStyle
     end
 
     def stylesheet_tags
-      stylesheet_link_tag "neopoly_style", plugin: "neopoly_style"
+      stylesheet_link_tag("neopoly_style", plugin: "neopoly_style") +
+      stylesheet_link_tag("neopoly_style_responsive", plugin: "neopoly_style")
     end
 
     def additional_favicons(context)

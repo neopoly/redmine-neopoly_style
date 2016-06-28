@@ -1,0 +1,9 @@
+@media (max-width: 899px) { #header { height: 64px; padding-top: 0; }
+  #header .jump-box-arrow:before { top: 0; }
+  .flyout-menu { background: #504c84; }
+  .flyout-menu a, .flyout-menu a:link, .flyout-menu a:visited { color: #FFF; }
+  .flyout-menu h1, .flyout-menu h2, .flyout-menu h3 { margin: 0; padding: 0; color: white; border-top: 1px solid #D7D7D7; border-bottom: 1px solid #D7D7D7; background-color: #292743; height: 20px; font-size: 11px; line-height: 19px; letter-spacing: 0.1em; text-transform: uppercase; }
+  .flyout-menu .flyout-menu__sidebar { display: none; }
+  .flyout-menu .personal-wiki-page { display: none; }
+  #content > .wiki > .apps.side { display: none; }
+  #content > div.contextual { margin: 0 0 6px 0; padding: 0; text-align: center; } }
