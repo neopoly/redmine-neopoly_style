@@ -19,9 +19,9 @@ h2, .wiki h1, h3, .wiki h2 { color: #222; }
 
 body, #wrapper, #main { background-color: #EEE; }
 
-#header { background-color: #504c84; background-image: -webkit-gradient(linear, left top, left bottom, from(#504c84), to(#3d455f)); background-image: -moz-linear-gradient(center top, #504c84 0%, #504c84 #3d455f); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$theme-color', endColorstr='#3d455f'); padding: 10px 0 35px 10px; background-position-y: 11%; height: auto; min-height: initial; }
-#header > h1 { padding: 0; height: 29px; margin: 0 24px; font-weight: normal; font-size: 23px; line-height: 15px; }
-#header > h1 .breadcrumbs { font-size: 0.5em; margin-top: -5px; margin-bottom: 3px; }
+#header { background-color: #504c84; background-image: -webkit-gradient(linear, left top, left bottom, from(#504c84), to(#3d455f)); background-image: -moz-linear-gradient(center top, #504c84 0%, #504c84 #3d455f); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$theme-color', endColorstr='#3d455f'); padding: 10px 0 0 10px; background-position-y: 11%; height: auto; min-height: 64px; }
+#header > h1 { padding: 0; height: 34px; margin: 0 24px; font-weight: normal; font-size: 20px; line-height: 14px; }
+#header > h1 .breadcrumbs { font-size: 0.5em; margin-top: -3px; margin-bottom: 2px; }
 
 #main { margin: 15px 15px 0 15px; }
 #main > #sidebar ul { margin: 12px 0; padding: 0 0 0 30px; }
@@ -34,7 +34,7 @@ body, #wrapper, #main { background-color: #EEE; }
 #main-menu li a.selected, #main-menu li a.selected:hover { background-color: #EEE; color: #222; }
 #main-menu li a:hover { background-color: transparent; }
 
-#quick-search { padding-top: 10px; }
+#quick-search { padding-top: 10px; padding-right: 5px; }
 
 div.flash { border: 0; text-shadow: 0 1px white; }
 
