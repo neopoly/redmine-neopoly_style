@@ -5,6 +5,6 @@
   .flyout-menu h1, .flyout-menu h2, .flyout-menu h3 { margin: 0; padding: 0; color: white; border-top: 1px solid #D7D7D7; border-bottom: 1px solid #D7D7D7; background-color: #292743; height: 20px; font-size: 11px; line-height: 19px; letter-spacing: 0.1em; text-transform: uppercase; }
   .flyout-menu .flyout-menu__sidebar { display: none; }
   .flyout-menu .personal-wiki-page { display: none; }
-  #main { margin: 0; padding-top: 15px; }
+  #main { margin: 0; padding-top: 64px; }
   #content > .wiki > .apps.side { display: none; }
   #content > div.contextual { margin: 0 0 6px 0; padding: 0; text-align: center; } }
