@@ -20,8 +20,8 @@ h2, .wiki h1, h3, .wiki h2 { color: #222; }
 body, #wrapper, #main { background-color: #EEE; }
 
 #header { background-color: #504c84; background-image: -webkit-gradient(linear, left top, left bottom, from(#504c84), to(#3d455f)); background-image: -moz-linear-gradient(center top, #504c84 0%, #504c84 #3d455f); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$theme-color', endColorstr='#3d455f'); padding: 10px 0 0 10px; background-position-y: 11%; height: auto; min-height: 64px; }
-#header > h1 { padding: 0; height: 34px; margin: 0 24px; font-weight: normal; font-size: 20px; line-height: 14px; }
-#header > h1 .breadcrumbs { font-size: 0.5em; margin-top: -3px; margin-bottom: 2px; }
+#header > h1 { padding: 0; height: 34px; margin: 0 24px; font-weight: normal; font-size: 20px; line-height: 20px; }
+#header > h1 .breadcrumbs { font-size: 0.5em; margin-top: -3px; margin-bottom: -4px; }
 
 #main { margin: 15px 15px 0 15px; }
 #main > #sidebar ul { margin: 12px 0; padding: 0 0 0 30px; }
