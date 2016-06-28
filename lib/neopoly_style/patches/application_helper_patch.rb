@@ -11,8 +11,7 @@ module NeopolyStyle
 
       # Returns the path to our own favicon
       def favicon_path_with_neopoly_style
-        path = "/plugin_assets/neopoly_style/images/favicon.ico"
-        image_path(path)
+        image_path(NeopolyStyle.favicon)
       end
     end
   end
